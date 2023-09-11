@@ -1,0 +1,82 @@
+.shape{
+    background-color: blueviolet;
+width: 14%;
+border-radius: 15%;
+
+
+}
+
+.triangle{
+    margin-left: 25%;
+ padding-top: 2%;
+ color: white;   
+}
+.cal{
+    width: 60%;
+   
+    height: 30px;
+}
+.late{
+    background-color: turquoise;
+    height: 30px;
+    border: rgb(158, 212, 207);
+    border-radius: 10px;
+}
+
+
+.late:hover{
+    background-color:green ;
+}
+.t{
+    background-color: blueviolet;
+    border-radius: 40px;
+    background-image: url("1.jpeg");
+    height: 70vh;
+    width: 80%;
+   
+    box-shadow: 3px 3px 3px;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.input{
+
+    color: rgb(240, 216, 6);
+}
+.fold{
+    background-color:blueviolet ;
+    width: 80%;
+}
+
+
+
+
+
+@media (min-width:300px) and (max-width:500px) {
+
+    .shape{
+
+        background-color: green;
+        padding-left: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 30%;
+    }
+    
+}
+
+
+@media (width:360px) {
+    .t{
+        background-color: blueviolet;
+        border-radius: 40px;
+        background-image: url("1.jpeg");
+        height: 90vh;
+        width: 80%;
+       
+        box-shadow: 3px 3px 3px;
+        margin-top: 5%;
+        margin-left: 10%;
+        
+    }
+}
